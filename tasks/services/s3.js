@@ -74,7 +74,8 @@ module.exports = function(grunt) {
       'region',
       'sslEnabled',
       'maxRetries',
-      'httpOptions'
+      'httpOptions',
+      'credentials'
     ), true);
 
     //s3 client
